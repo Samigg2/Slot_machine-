@@ -1,5 +1,9 @@
 🎰 Slot Machine Game (Python CLI)
-This is a simple command-line slot machine game written in Python. It allows users to deposit money, place bets on lines, spin the slot machine, and potentially win based on matching symbols.
+
+This is a simple command-line slot machine game written in Python. 
+It allows users to deposit money, place bets on lines, spin the 
+slot machine, and potentially win based on matching symbols.
+
 
 🧠 How It Works
 The player deposits money.
@@ -12,7 +16,9 @@ A random 3x3 grid of symbols is generated to simulate a slot machine.
 
 If the symbols in any of the bet lines match, the player wins money based on the symbol's value.
 
+
 💡 Features
+
 User input validation.
 
 Configurable betting range.
@@ -24,6 +30,7 @@ Randomized 3x3 slot machine grid.
 Clear and user-friendly terminal outputs.
 
 🛠️ Game Configuration
+
 python
 Copy
 Edit
@@ -37,7 +44,9 @@ symbol_count = {
     'C': 6,
     'D': 8
 }
+
 🔄 Game Flow
+
 Deposit funds
 Prompted to enter an amount to start with.
 
@@ -57,6 +66,7 @@ Play again or end
 The game continues if there's enough balance unless the player wins.
 
 📦 How to Run
+
 Make sure Python is installed on your system, then:
 
 bash
